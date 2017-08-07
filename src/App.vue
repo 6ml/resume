@@ -1,19 +1,19 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+    <MainContent></MainContent>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
+// import Hello from './components/Hello'
+import MainContent from "./components/MainContent";
 
 export default {
-  name: 'app',
-  components: {
-    Hello
-  }
-}
+	name: "app",
+	components: {
+		MainContent
+	}
+};
 </script>
 
 <style>
@@ -23,6 +23,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  /*margin-top: 60px;*/
 }
 </style>
