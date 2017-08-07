@@ -1,27 +1,34 @@
 <template>
 	<div class="content clearfix">
-		<section class="basicInfo col-sm-3"></section>
-		<section class="detailedInfo col-sm-9"></section>
+		<LeftComponent></LeftComponent>
+		<RightComponent></RightComponent>
 	</div>
 </template>
 
 <script>
+	import LeftComponent from "./leftCom/LeftComponent";
+	import RightComponent from "./rightCom/RightComponent";
+
 	export default {
-		name: "MainContent"
+		name: "MainContent",
+		data () {
+			return {
+
+			};
+		},
+		components: {
+			LeftComponent,
+			RightComponent
+		}
 	};
 </script>
 
 <style lang="scss">
 	.content{
-		width: 1000px;
-		height: 1400px;
+		width: 1024px;
+		height: 1100px;
 		margin: 50px auto;
 		border-radius: 10px;
 		box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-
-		.basicInfo{
-			background-color: #dbdbdb;
-			height: 100%;
-		}
 	}
 </style>
