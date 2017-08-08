@@ -34,7 +34,7 @@
 		height: 100%;
 		box-sizing: border-box;
 		border-top-right-radius: 10px;
-		border-top-bottom-radius: 10px;
+		border-bottom-right-radius: 10px;
 		background-color: #FFF;
 		padding: 20px 30px;
 
@@ -71,13 +71,15 @@
 
 		em {
 			display: inline-block;
-			border: 1px solid #DDD;
-			background-color: #EEE;
-			line-height: 18px;
+			border: 1px solid #DBDBDB;
+			background-color: #F6F6F6;
+			line-height: 16px;
+			font-size: 12px;
+			color: #444;
 			text-indent: 0;
-			border-radius: 2px;
-			margin: 0 2px;
-			padding: 0 2px;
+			border-radius: 3px;
+			margin: 0 3px;
+			padding: 0 3px;
 			font-style: normal;
 		}
 	}

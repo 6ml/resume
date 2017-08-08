@@ -3,17 +3,19 @@
 		<header class="header">实践经历</header>
 		<div class="praBlock">
 			<header class="clearfix">
-				<span class="praName">重庆八戒知识产权服务有限公司</span>
+				<span class="praName">重庆猪八戒知识产权服务有限公司</span>
 				<span class="praTime">2017.07 - 至今</span>
+				<span class="praProperty">实习</span>
 			</header>
-			<p class="praContent"><em>研发中心</em>大数据大卡司啥到家啊数据库的按实际的狂欢节按时肯定会傲娇的手机卡加大号三德科技爱神的箭啊哈简单十多块爱神的箭很快就啊哈<em>大家</em>撒娇旷达科技撒旦就好使。</p>
+			<p class="praContent"><em>研发中心</em>开发内部业务系统。了解了公司业务开发的基本流程；使用<em>Vue</em>框架结合<em>VueX</em>状态管理开发前端页面；使用<em>NodeJS</em>结合内部框架完成前后端中间层：为前端提供接口，为后端传递数据。通过企业项目实践理解到高性能、代码可维护性的重要性。</p>
 		</div>
 		<div class="praBlock">
 			<header class="clearfix">
 				<span class="praName">香樟林工作室</span>
-				<span class="praTime">2017.07 - 至今</span>
+				<span class="praTime">2016.03 - 至今</span>
+				<span class="praProperty">校内组织</span>
 			</header>
-			<p class="praContent"><em>前端组核心成员</em>大数据大卡司啥到家啊数据库的按实际的狂欢节按时肯定会傲娇的手机卡加大号三德科技爱神的箭啊哈简单十多块爱神的箭很快就啊哈<em>大家</em>撒娇旷达科技撒旦就好使。</p>
+			<p class="praContent"><em>前端组核心成员</em>负责香樟林工作室日常项目前端部分的研发、维护，协同产品、设计、后端小伙伴共同完成整个项目的开发、设计。参与工作室日常技术分享和交流培训。</p>
 		</div>
 	</section>
 </template>
@@ -39,12 +41,29 @@
 				margin-bottom: 15px;
 
 				.praName {
+					display: inline-block;
 					font-weight: bold;
 					text-align: left;
+					float: left;
+					width: 33%;
 				}
 
 				.praTime {
+					display: inline-block;
+					width: 34%;
+					float: left;
+					text-align: center;
+				}
+
+				.praProperty {
+					display: inline-block;
 					float: right;
+					margin-right: 10px;
+					font-size: 12px;
+					line-height: 18px;
+					border: 1px solid #9FC5E8;
+					border-radius: 3px;
+					padding: 0 5px;
 				}
 			}
 

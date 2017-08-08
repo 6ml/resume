@@ -2,12 +2,12 @@
 	<div class="prize">
 		<ul class="priContent">
 			<li class="prizeItem">
-				<p class="prizeName">第二届江南之星创业大赛</p>
+				<p class="prizeName">第二届"江南之星"创业大赛</p>
 				<p class="prizeInfo"><span class="prizeTime">2016-11</span><span class="matchLevel">市级</span><span class="prizeLevel">三等奖</span></p>
 			</li>
 			<li class="prizeItem">
-				<p class="prizeName">锐明杯</p>
-				<p class="prizeInfo"><span class="prizeTime">2017-04</span><span class="matchLevel">校级</span><span class="prizeLevel">三等奖</span></p>
+				<p class="prizeName">第一届"锐明杯"科技竞赛</p>
+				<p class="prizeInfo"><span class="prizeTime">2017-06</span><span class="matchLevel">校级</span><span class="prizeLevel">三等奖</span></p>
 			</li>
 		</ul>
 	</div>
@@ -35,8 +35,8 @@
 				margin-top: 25px;
 
 				.prizeName {
-					font-size: 18px;
-					margin: 10px 0;
+					font-size: 16px;
+					margin: 10px 0 5px;
 				}
 
 				.prizeInfo {

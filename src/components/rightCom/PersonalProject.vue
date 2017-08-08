@@ -3,18 +3,18 @@
 		<header class="header">个人项目</header>
 		<div class="perBlock">
 			<header class="clearfix">
-				<span class="perName">个人博客</span><span class="perTime">2017.06 - 2017.07</span>
+				<span class="perName">个人主页 · 技术博客</span>
 			</header>
 			<p class="perContent">
-				暗杀时间和<em>Vue</em>、<em>VueX</em>爱神的箭按实际的爱神的箭哈萨克的阿萨德静安寺<em>asdas</em>萨哈担惊受恐啊啥到家啊数据库的和爱神的箭哈市就肯定会师大假数据
+				以<em>blog.lupath.com</em>作为个人域名，基于<em>Jekyll</em>静态网站工具设计并开发了个人博客，用以记录学习上的总结、经验。
 			</p>
 		</div>
 		<div class="perBlock">
 			<header class="clearfix">
-				<span class="perName">个人博客</span><span class="perTime">2017.06 - 2017.07</span>
+				<span class="perName">个人简历</span>
 			</header>
 			<p class="perContent">
-				暗杀时间和<em>Vue</em>、<em>VueX</em>爱神的箭按实际的爱神的箭哈萨克的阿萨德静安寺<em>asdas</em>萨哈担惊受恐啊啥到家啊数据库的和爱神的箭哈市就肯定会师大假数据
+				基于<em>Vue-cli</em>搭建项目，使用<em>BootStrap</em>、<em>Sass</em>完成页面 UI 的实现，实现响应式布局。
 			</p>
 		</div>
 	</section>
