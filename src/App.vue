@@ -17,7 +17,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 body {
 	background-color: #dbdbdb;
 }
@@ -33,5 +33,28 @@ ul {
 	-moz-osx-font-smoothing: grayscale;
 	text-align: center;
 	color: #2c3e50;
+}
+
+@media print {
+	.content {
+		width: 970px;
+		height: 1372px;
+		margin: 0 auto;
+		border-radius: 0;
+		box-shadow: 0 0 0 #000;
+
+		.leftComponent {
+			width: 25%;
+			height: 100%;
+			float: left;
+			background-color: #9FC5E8;
+			border-right: 1px solid #000;
+		}
+
+		.rightComponent {
+			width: 75%;
+			float: left;
+		} 
+	}
 }
 </style>
