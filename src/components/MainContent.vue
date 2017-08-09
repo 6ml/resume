@@ -30,5 +30,13 @@
 		margin: 50px auto;
 		border-radius: 10px;
 		box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+		@media screen and (max-width: 1024px) {
+			margin: 0;
+			width: 100%;
+			height: 1372px;
+			border-radius: 0;
+			box-shadow: 0 0 0 #000;
+		}
 	}
 </style>

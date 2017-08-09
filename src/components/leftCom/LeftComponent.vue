@@ -1,5 +1,5 @@
 <template>
-	<section class="leftComponent col-sm-3">
+	<section class="leftComponent">
 		<BasicInfo></BasicInfo>
 		<Education></Education>
 		<Prize></Prize>
@@ -34,8 +34,21 @@
 		background-color: #9FC5E8;
 		height: 100%;
 		color: #FFF;
+		width: 25%;
+		float: left;
+		box-sizing: border-box;
 		border-top-left-radius: 10px;
 		border-bottom-left-radius: 10px;
 		padding: 30px 0;
+
+		@media screen and (max-width: 1024px) {
+			border-radius: 0;
+		}
+
+		@media screen and (max-width: 720px) {
+			float: none;
+			width: 100%;
+			height: auto;
+		}
 	}
 </style>

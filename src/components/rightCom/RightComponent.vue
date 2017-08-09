@@ -1,5 +1,5 @@
 <template>
-	<section class="rightComponent col-sm-9">
+	<section class="rightComponent">
 		<Practice></Practice>
 		<PersonalProject></PersonalProject>
 		<TeamProject></TeamProject>
@@ -31,12 +31,26 @@
 
 <style lang="scss">
 	.rightComponent {
+		width: 75%;
 		height: 100%;
+		float: left;
 		box-sizing: border-box;
 		border-top-right-radius: 10px;
 		border-bottom-right-radius: 10px;
 		background-color: #FFF;
 		padding: 20px 30px;
+
+		@media screen and (max-width: 1024px) {
+			// height: auto;
+			border-radius: 0;
+			overflow: hidden;
+		}
+
+		@media screen and (max-width: 720px) {
+			height: auto;
+			width: 100%;
+			float: none;
+		}
 
 		.header {
 			height: 32px;

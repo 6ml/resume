@@ -30,6 +30,11 @@
 			line-height: 30px;
 			text-align: left;
 
+			@media screen and (max-width: 720px) {
+				padding: 0;
+				text-align: center;
+			}
+
 			.evaItem {
 				position: relative;
 

@@ -39,7 +39,8 @@ ul {
 	.content {
 		width: 970px;
 		height: 1372px;
-		margin: 0 auto;
+		margin: 0;
+		padding: 0;
 		border-radius: 0;
 		box-shadow: 0 0 0 #000;
 
@@ -48,7 +49,7 @@ ul {
 			height: 100%;
 			float: left;
 			background-color: #9FC5E8;
-			border-right: 1px solid #000;
+			// border-right: 1px solid #000;
 		}
 
 		.rightComponent {
