@@ -8,6 +8,7 @@
 				<li class="skillItem">熟练使用<em>Vue</em>、<em>jQuery</em>、<em>React</em>等框架类库，并有一定的项目实践经验</li>
 				<li class="skillItem">熟悉 JavaScript<em>异步编程</em>及简单实现，熟悉<em>Webpack</em>等前端自动化工具，熟悉<em>MockJS</em>模拟数据</li>
 				<li class="skillItem">对前端<em>性能优化</em>、<em>前端安全</em>、<em>跨域</em>、<em>ES6</em>等有着较熟练的实践</li>
+				<li class="skillItem">熟悉<em>Echart</em>等数据可视化工具，熟练使用<em>ESLint</em>、<em>JsHint</em>等代码校验工具</li>
 			</ul>
 		</div>
 		<div class="skillBlock">
@@ -27,7 +28,9 @@
 		<div class="skillBlock">
 			<header>Others</header>
 			<ul class="skillContent">
-				<li class="skillItem">熟练使用<em>GIT</em>进行版本控制和代码托管，<em>Markdown</em>进行日常文档写作，熟悉<em>科学上网</em>，能够<em>阅读英文文档</em></li>
+				<li class="skillItem">熟练使用<em>GIT</em>进行版本控制和代码托管，<em>Markdown</em>进行日常文档写作</li>
+				<li class="skillItem">了解 HTTP 、TCP 等协议，了解 Linux 基本命令</li>
+				<li class="skillItem">熟悉<em>科学上网</em>，能够<em>阅读英文文档</em></li>
 			</ul>
 		</div>
 	</section>

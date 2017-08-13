@@ -3,7 +3,15 @@
 		<header class="header">团队项目</header>
 		<div class="teaBlock">
 			<header class="clearfix">
-				<span class="teaName">头脑风暴</span><span class="teaTime">2016.11 - 2017.01</span><span class="teaJob">前端开发</span>
+				<span class="teaName">云芽智慧门诊系统 · 互联网+</span><span class="teaTime">2017.03</span><span class="teaJob">前端开发</span>
+			</header>
+			<p class="teaContent">
+				基于<em>Echart</em>、<em>Webpack</em>的数据可视化互联网+ 参赛项目，将医院的大量数据以更直观的方式展示。使用<em>BootStrap</em>、<em>Sass</em>完成 UI 界面编写；使用<em>Echart</em>实现数据可视化的展示。在项目中负责环境搭建及主要功能的开发。
+			</p>
+		</div>
+		<div class="teaBlock">
+			<header class="clearfix">
+				<span class="teaName">头脑风暴</span><span class="teaTime">2016.12 - 2017.01</span><span class="teaJob">前端开发</span>
 			</header>
 			<p class="teaContent">
 				基于<em>React</em>框架结合<em>Redux</em>、<em>Sass</em>等技术完成页面样式、交互效果；使用<em>WebSocket</em>与后端交互，实现即时通信；运用<em>Webpack</em>打包生成项目。为校内实验室完成了一个即时通信网站。了解了<em>单项数据流</em>、<em>组件化开发</em>以及<em>前端工程化</em>。

@@ -1,8 +1,8 @@
 <template>
 	<section class="rightComponent">
 		<Practice></Practice>
-		<PersonalProject></PersonalProject>
 		<TeamProject></TeamProject>
+		<PersonalProject></PersonalProject>
 		<SkillTree></SkillTree>
 	</section>
 </template>

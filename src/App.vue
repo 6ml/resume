@@ -20,6 +20,7 @@ export default {
 <style lang="scss">
 body {
 	background-color: #dbdbdb;
+	-webkit-print-color-adjust: exact;
 }
 
 ul {
@@ -43,6 +44,7 @@ ul {
 		padding: 0;
 		border-radius: 0;
 		box-shadow: 0 0 0 #000;
+		-webkit-print-color-adjust: exact;
 
 		.leftComponent {
 			width: 25%;
@@ -55,6 +57,11 @@ ul {
 		.rightComponent {
 			width: 75%;
 			float: left;
+			padding-top: 50px;
+
+			section {
+				margin-bottom: 30px;
+			}
 		} 
 	}
 }
