@@ -6,7 +6,6 @@
 </template>
 
 <script>
-// import Hello from './components/Hello'
 import MainContent from "./components/MainContent";
 
 export default {
@@ -45,6 +44,7 @@ ul {
 		border-radius: 0;
 		box-shadow: 0 0 0 #000;
 		-webkit-print-color-adjust: exact;
+		background-color: #eee;
 
 		.leftComponent {
 			width: 25%;

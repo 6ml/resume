@@ -1,10 +1,7 @@
 <template>
 	<div class="evaluation">
 		<ul class="evaContent">
-			<li class="evaItem">热爱前端，喜欢钻研，乐于尝试</li>
-			<li class="evaItem">踏实刻苦，对待工作认真负责</li>
-			<li class="evaItem">有良好的团队意识和沟通能力</li>
-			<li class="evaItem">做事沉稳，不浮躁，热爱生活</li>
+			<li class="evaItem" v-for="(evaItem, index) in evaList" :key="index">{{evaItem}}</li>
 		</ul>
 	</div>
 </template>
@@ -14,7 +11,12 @@
 		name: "Evaluation",
 		data () {
 			return {
-
+				evaList: [
+					"热爱前端，喜欢钻研，乐于尝试",
+					"踏实刻苦，对待工作认真负责",
+					"有良好的团队意识和沟通能力",
+					"做事沉稳，不浮躁，热爱生活"
+				]
 			};
 		}
 	};

@@ -1,17 +1,10 @@
 <template>
 	<div class="basicInfo">
-		<h1 class="name">陆浩</h1>
-		<h3 class="intention">Web 前端开发</h3>
+		<h1 class="name">{{name}}</h1>
+		<h3 class="intention">{{intention}}</h3>
 		<section class="conntactInfo">
 			<ul class="contact">
-				<!-- <li class="contactItem"><a href="http://blog.lupath.com" target="_blank"><icon class="icon" name="home"></icon><span>blog.lupath.com</span></a></li>
-				<li class="contactItem"><a href="tel:15803040109" target="_blank"><icon class="icon" name="phone"></icon><span>15803040109</span></a></li>
-				<li class="contactItem"><a href="mailto:15803040109@163.com" target="_blank"><icon class="icon" name="envelope"></icon><span>15803040109@163.com</span></a></li>
-				<li class="contactItem"><a href="https://github.com/6ml" target="_blank"><icon class="icon" name="github"></icon><span>github.com/6ml</span></a></li> -->
-				<li class="contactItem"><a target="_blank"><icon class="icon" name="home"></icon><span>blog.lupath.com</span></a></li>
-				<li class="contactItem"><a target="_blank"><icon class="icon" name="phone"></icon><span>15803040109</span></a></li>
-				<li class="contactItem"><a target="_blank"><icon class="icon" name="envelope"></icon><span>15803040109@163.com</span></a></li>
-				<li class="contactItem"><a target="_blank"><icon class="icon" name="github"></icon><span>github.com/6ml</span></a></li>
+				<li class="contactItem" v-for="(contactItem, index) in contactList" :key="index"><a :href="contactItem.href" target="_blank"><icon class="icon" :name="contactItem.icon"></icon><span>{{contactItem.content}}</span></a></li>
 			</ul>
 		</section>
 	</div>
@@ -19,7 +12,35 @@
 
 <script>
 	export default {
-		name: "BasicInfo"
+		name: "BasicInfo",
+		data () {
+			return {
+				name: "陆浩",
+				intention: "Web 前端开发",
+				contactList: [
+					{
+						icon: "home",
+						content: "blog.lupath.com",
+						href: "http://blog.lupath.com"
+					},
+					{
+						icon: "phone",
+						content: "15803040109",
+						href: "tel:15803040109"
+					},
+					{
+						icon: "envelope",
+						content: "15803040109@163.com",
+						href: "mailto:15803040109@163.com"
+					},
+					{
+						icon: "github",
+						content: "github.com/6ml",
+						href: "https://github.com/6ml"
+					}
+				]
+			};
+		}
 	};
 </script>
 
