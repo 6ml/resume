@@ -26,6 +26,10 @@
 	.evaluation{
 		padding: 30px 15px 0;
 
+		@media print {
+			border-top: 1px dashed #F0F0F0;
+		}
+
 		.evaContent{
 			padding: 0 0 0 20px;
 			font-size: 14px;
@@ -40,6 +44,11 @@
 			.evaItem {
 				position: relative;
 
+				@media print {
+					-webkit-print-color-adjust: exact;
+					color: #FFF !important;
+				}
+
 				&::before {
 					content: " ";
 					display: block;
@@ -49,7 +58,8 @@
 					width: 4px;
 					height: 2px;
 					border-radius: 50%;
-					background-color: #FFF;
+					-webkit-print-color-adjust: exact;
+					background-color: #FFF !important;
 				}
 			}
 		}

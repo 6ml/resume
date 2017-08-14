@@ -35,7 +35,12 @@
 
 <style lang="scss" scoped>
 	.prize {
-		border-bottom: 1px dashed #EEE;
+		padding-top: 5px;
+		border-bottom: 1px dashed #F0F0F0;
+
+		@media print {
+			border-top: 1px dashed #F0F0F0;
+		}
 
 		.priContent {
 			padding: 0 10px 5px;
@@ -43,9 +48,18 @@
 			.prizeItem {
 				margin-top: 25px;
 
+				&:first-child {
+					margin-top: 20px;
+				}
+
 				.prizeName {
 					font-size: 16px;
 					margin: 10px 0 5px;
+
+					@media print {
+						-webkit-print-color-adjust: exact;
+						color: #FFF !important;
+					}
 				}
 
 				.prizeInfo {
@@ -54,6 +68,11 @@
 					.prizeTime, .matchLevel, .prizeLevel {
 						display: inline-block;
 						margin: 0 3px;
+
+						@media print {
+							-webkit-print-color-adjust: exact;
+							color: #FFF !important;
+						}
 					}
 				}
 			}

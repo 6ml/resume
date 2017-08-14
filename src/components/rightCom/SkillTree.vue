@@ -32,7 +32,7 @@
 						content: [
 							"熟悉<em>W3C标准</em>、<em>前端语义化</em>、<em>模板引擎</em>、<em>浏览器兼容性</em>，了解<em>Canvas</em>、<em>LocalStorage</em>等 H5 新特性",
 							"熟练使用<em>PhotoShop</em>切图、<em>CSS3</em>属性，熟悉<em>常见页面布局</em>、<em>响应式布局</em>",
-							">熟练使用 CSS 预编译技术<em>Sass</em>、<em>Stylus</em>"
+							"熟练使用 CSS 预编译技术<em>Sass</em>、<em>Stylus</em>"
 						]
 					},
 					{
@@ -62,6 +62,10 @@
 				text-align: left;
 				font-size: 14px;
 				font-weight: bold;
+
+				@media print {
+					line-height: 30px;
+				}
 			}
 
 			.skillContent{
@@ -84,6 +88,11 @@
 						height: 2px;
 						border-radius: 2px;
 						background-color: #9FC5E8;
+
+						@media print {
+							-webkit-print-color-adjust: exact;
+							background-color: #9FC5E8 !important;
+						}
 					}
 				}
 			}

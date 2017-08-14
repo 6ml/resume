@@ -23,19 +23,39 @@
 
 <style lang="scss" scoped>
 	.education {
+		padding: 5px 0 0 0;
 		border-bottom: 1px dashed #F0F0F0;
 
+		@media print {
+			border-top: 1px dashed #F0F0F0;
+		}
+
 		.schoolName {
-			margin: 25px 0 20px;
+			margin: 20px 0 20px;
+
+			@media print {
+				-webkit-print-color-adjust: exact;
+				color: #FFF !important;
+			}
 		}
 
 		.major {
 			font-size: 16px;
 			margin: 5px 0 5px;
+
+			@media print {
+				-webkit-print-color-adjust: exact;
+				color: #FFF !important;
+			}
 		}
 
 		.time {
 			margin: 15px 0 20px;
+
+			@media print {
+				-webkit-print-color-adjust: exact;
+				color: #FFF !important;
+			}
 		}
 	}
 </style>

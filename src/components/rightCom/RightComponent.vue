@@ -63,6 +63,11 @@
 			margin: 10px auto;
 			position: relative;
 
+			@media print {
+				-webkit-print-color-adjust: exact;
+				background-color: #EEE !important;
+			}
+
 			&::before, &::after {
 				content: " ";
 				display: block;
@@ -70,6 +75,11 @@
 				top: 15px;
 				height: 1px;
 				background-color: #EEE;
+
+				@media print {
+					-webkit-print-color-adjust: exact;
+					background-color: #EEE !important;
+				}
 			}
 
 			&::before {
@@ -95,6 +105,12 @@
 			margin: 0 3px;
 			padding: 0 3px;
 			font-style: normal;
+
+			@media print {
+				-webkit-print-color-adjust: exact;
+				background-color: #F6F6F6 !important;
+				color: #444 !important;
+			}
 		}
 	}
 </style>

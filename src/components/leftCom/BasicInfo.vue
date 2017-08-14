@@ -4,7 +4,7 @@
 		<h3 class="intention">{{intention}}</h3>
 		<section class="conntactInfo">
 			<ul class="contact">
-				<li class="contactItem" v-for="(contactItem, index) in contactList" :key="index"><a :href="contactItem.href" target="_blank"><icon class="icon" :name="contactItem.icon"></icon><span>{{contactItem.content}}</span></a></li>
+				<li class="contactItem" v-for="(contactItem, index) in contactList" :key="index"><a target="_blank"><icon class="icon" :name="contactItem.icon"></icon><span>{{contactItem.content}}</span></a></li>
 			</ul>
 		</section>
 	</div>
@@ -51,16 +51,31 @@
 
 		.name {
 			letter-spacing: 0.3em;
+
+			@media print {
+				-webkit-print-color-adjust: exact;
+				color: #FFF !important;
+			}
 		}
 
 		.intention {
-			border-bottom: 1px dashed #F0F0F0;
 			padding-bottom: 30px;
+			border-bottom: 1px dashed #F0F0F0;
+
+			@media print {
+				-webkit-print-color-adjust: exact;
+				color: #FFF !important;
+			}
 		}
 
 		.conntactInfo{
 			padding: 10px 10px 20px 25px;
 			border-bottom: 1px dashed #F0F0F0;
+
+			@media print {
+				padding-top: 25px;
+				border-top: 1px dashed #F0F0F0;
+			}
 
 			@media screen and (max-width: 1024px) {
 				padding: 10px 0 20px;
@@ -91,12 +106,36 @@
 						vertical-align: text-bottom;
 						width: 50px;
 						text-align: center;
+
+						@media print {
+							-webkit-print-color-adjust: exact;
+							color: #FFF !important;
+						}
+
+						* {
+							@media print {
+								-webkit-print-color-adjust: exact;
+								color: #FFF !important;
+							}
+						}
+
+						path {
+							@media print {
+								-webkit-print-color-adjust: exact;
+								color: #FFF !important;
+							}
+						}
 					}
 
 					span {
 						display: inline-block;
 						text-align: left;
 						vertical-align: center;
+
+						@media print {
+							-webkit-print-color-adjust: exact;
+							color: #FFF !important;
+						}
 					}
 				}
 			}

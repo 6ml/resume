@@ -38,20 +38,20 @@ ul {
 @media print {
 	.content {
 		width: 970px;
-		height: 1372px;
-		margin: 0;
+		height: 1449px !important;
+		margin: 0 !important;
 		padding: 0;
 		border-radius: 0;
 		box-shadow: 0 0 0 #000;
-		-webkit-print-color-adjust: exact;
-		background-color: #eee;
 
 		.leftComponent {
 			width: 25%;
-			height: 100%;
+			height: 100% !important;
 			float: left;
-			background-color: #9FC5E8;
-			// border-right: 1px solid #000;
+			padding-top: 60px !important;
+			border-radius: 0 !important;
+			-webkit-print-color-adjust: exact;
+			background-color: #9FC5E8 !important;
 		}
 
 		.rightComponent {
