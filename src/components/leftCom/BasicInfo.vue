@@ -4,7 +4,7 @@
 		<h3 class="intention">{{intention}}</h3>
 		<section class="conntactInfo">
 			<ul class="contact">
-				<li class="contactItem" v-for="(contactItem, index) in contactList" :key="index"><a target="_blank"><icon class="icon" :name="contactItem.icon"></icon><span>{{contactItem.content}}</span></a></li>
+				<li class="contactItem" v-for="(contactItem, index) in contactList" :key="index"><a target="_blank"><i :class="contactItem.icon"></i><span>{{contactItem.content}}</span></a></li>
 			</ul>
 		</section>
 	</div>
@@ -19,22 +19,22 @@
 				intention: "Web 前端开发",
 				contactList: [
 					{
-						icon: "home",
+						icon: "fa fa-home",
 						content: "blog.lupath.com",
 						href: "http://blog.lupath.com"
 					},
 					{
-						icon: "phone",
+						icon: "fa fa-phone",
 						content: "15803040109",
 						href: "tel:15803040109"
 					},
 					{
-						icon: "envelope",
+						icon: "fa fa-envelope",
 						content: "15803040109@163.com",
 						href: "mailto:15803040109@163.com"
 					},
 					{
-						icon: "github",
+						icon: "fa fa-github",
 						content: "github.com/6ml",
 						href: "https://github.com/6ml"
 					}
