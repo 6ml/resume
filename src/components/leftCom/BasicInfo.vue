@@ -73,7 +73,7 @@
 			border-bottom: 1px dashed #F0F0F0;
 
 			@media print {
-				padding-top: 25px;
+				padding-top: 15px;
 				border-top: 1px dashed #F0F0F0;
 			}
 
@@ -101,29 +101,18 @@
 						}
 					}
 
-					.icon {
+					i {
 						display: inline-block;
-						vertical-align: text-bottom;
 						width: 50px;
+						line-height: 21px;
+						font-size: 15px;
 						text-align: center;
+						-webkit-print-color-adjust: exact;
+						color: #FFF !important;
 
-						@media print {
+						&::before {
 							-webkit-print-color-adjust: exact;
 							color: #FFF !important;
-						}
-
-						* {
-							@media print {
-								-webkit-print-color-adjust: exact;
-								color: #FFF !important;
-							}
-						}
-
-						path {
-							@media print {
-								-webkit-print-color-adjust: exact;
-								color: #FFF !important;
-							}
 						}
 					}
 
